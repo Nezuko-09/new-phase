@@ -1,8 +1,8 @@
 class ImplementingMethods : IMethodsUsed
 {
-    string? desktopPath;
-    string? mGQSTeachingPath;
-    string? workingFilePath;
+    public string? desktopPath;
+    protected string? mGQSTeachingPath;
+    protected string? workingFilePath;
     protected string? mGQSFolder;
     FileStream fileStream = null!;
     public void Paths()
